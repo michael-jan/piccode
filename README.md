@@ -14,7 +14,7 @@ PicCode enables you to text a picture of handwritten C code to a special phone n
 ## How We Did It
 We set the entire service up on a Google Cloud [Compute Engine](https://cloud.google.com/compute/) (a virtual machine, or VM), so it's always running in the cloud. Using [Flask](http://flask.pocoo.org/) and [Twilio](https://www.twilio.com/) in Python, our remote server (the VM) was able to receive an image of handwritten code and to respond accordingly to the user. The Google Vision Cloud API (specifically its [Optical Character Recognition](https://cloud.google.com/vision/docs/ocr)) was used to help with the handwriting-to-code conversion. Within the Google Cloud VM, we wrote a shell script, called every time the server received a text message, that would essentially compile the program and write the output and/or errors to a file. Upon the scripts completion, the server then sent the output or error messages back via text.
 
-We've tested our platform across multiple mediums—including printer paper, lined paper, blackboards, and whiteboards—with varying (but promising) success.
+We've tested our platform across multiple mediums—including printer paper, lined paper, blackboards, and whiteboards—with promising results.
 
 ### Technologies Used
 Google Cloud (Optical Character Recogniton and Compute Engine), Twilio API, Python, Flask, ngrok
