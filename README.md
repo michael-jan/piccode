@@ -16,7 +16,7 @@ We set the entire service up on a Google Cloud [Compute Engine](https://cloud.go
 
 We've tested our platform across multiple mediums—including printer paper, lined paper, blackboards, and whiteboards—with promising results.
 
-### Technologies Used
+### List of Technologies Used
 Google Cloud (Optical Character Recogniton and Compute Engine), Twilio API, Python, Flask, ngrok
 
 ## Example Usage
