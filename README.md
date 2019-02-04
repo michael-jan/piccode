@@ -2,7 +2,7 @@
 
 Run handwritten code, straight from your phone. 
 
-Created at [DevFest 2019](https://devfe.st/) at Columbia University by Alexander Wang, Ursula Ott, Joheen Chakraborty, and Michael Jan.
+Created at [DevFest 2019](https://devfe.st/) at Columbia University by Michael Jan, Ursula Ott, Joheen Chakraborty, and Alex Wang.
 
 ## Project Overview
 ### Motivation
